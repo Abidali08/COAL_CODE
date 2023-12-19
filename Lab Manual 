@@ -1,0 +1,129 @@
+	Computer Organization and Assembly Language Lab Manual Questions
+*******************Lab #01*****************
+1) Program is to print single character on screen.
+2) Program is to take input with echo.
+3) Program is to take input with echo.
+4) Program is to take input character with echo and print it on screen.
+5) Program is to take input character without echo and print it on screen.
+6) Program is to print your name on screen.
+
+*******************Lab #02*****************
+1) Write a program for AAM and AAA.
+2) Program is to add two Numbers.
+3) Program is to take input of two numbers and add them.
+4) Program is to subtract two numbers.
+5) Write a program to divide two numbers and print its quotient and remainder.
+6) Write a program to multiply two numbers.
+7) Program is to take input of two numbers and subtract, add, divide and multiply.
+8) Program is to convert upper case latter into lower case.
+9) Program is to convert lower case letter upper into upper case.
+
+*******************Lab #03*****************
+1) Declare and initialize a variable and print the data of variable.
+2) Program is to add three numbers using variables and store the result is sum.
+3) program is to increment the value of variable.
+4) program is to decrement the number.
+5) Program is to store negative number.
+6) Program is to evaluate the following mathematical expression into assembly language.
+	aval = -bval+(cval-dval)
+7) Write a program to divide two numbers and print its quotient and remainder.
+
+*******************Lab #04*****************
+
+1) Program is to print the "Hello World".
+2) Program is to print name,registration number and subject in three different lines.
+3) Program is to print any lower case letter into upper case leer using strings.
+
+
+*******************Lab #05*****************
+1) Write program for following operators.
+	* AND
+	* OR
+	* XOR
+	* test
+	* cmp
+2) Write a program that converts an upper case character into lower case using 'or' instruction.
+3) Write a program that takes lower from user and converts it into uppercase letter using 'AND' operator.
+4) write a program that takes input from user and converts it into upper case using 'XOR'.
+5) Develop a menu-driven program in EMU8086 that allows the user to choose various operations on an array of integers (sum and subtraction). Use a stack to hold intermediate results and navigate the menu.  
+
+*******************Lab #6*****************
+1) Write a program to demostrate the following opcode.
+	* JZ
+	* JNE
+	* JAE
+	* JBE
+	* JA
+	* JB
+	* JL
+	* JG
+	* JLE
+	* JGE
+2) Write a program to take string input from user and store in array.
+3) Write a program to check password is correct or NOT.
+4) write a program to display '?' take an input from user and display the message informing user what he/she entered.
+	* upper case
+	* lower case
+	* symbol
+	* Number
+5) Create a menu-driven program in EMU8086 assembly language that allows the user to perform various arithmetic operations, including addition, division, multiplication and subtraction, on two numbers. Ensure that the program gets input from the user. Use jump instructions to navigate the menu and control the flow of the program. Additionally, make sure that the program gracefully handles invalid inputs, such as non-numeric values.
+
+
+
+*******************Lab #07****************
+1) declare and initialize an array and print the elements of array using loop.
+2) wirte a program to print array element using index.
+3) Write a program to demostrate the following opcode
+	* loopz
+	* loope
+	* loopnz
+	* loopne
+4) Write a program that takes input as string and counts number of characters when
+user press space key it must show the result not including the space key character using conditional loop.
+5) write a program that converts upper case string into lower case using conditional loop.
+
+*******************Lab #08*****************
+1) Program is to take five times input form user using loop.
+2) Program is to print the number (0 to 9) using loop.
+3) Program is to print capital letter A to Z using Loop.
+4) Program is to print small letters a to z using loop.
+5) Program is to print even number between 0 to 10 using loop.
+6) print #***#***#***#***# using nested loops.
+7) print right and left triangle using nested loops.
+8) This EMU8086 assembly program prompts the user for the height of a right triangle (1-9), validates the input, and prints the left triangle and right triangle using asterisks. It uses int 21h for input and output, a loop to control the asterisk count in each row, and gracefully terminates after execution.
+
+*******************Lab #09*****************
+1) Write a program to demostrate the concept of push and pop operations.
+2) Program is to swap any two numbers using push and pop instructions.
+3) Program to revese the message 'My name is Ali' using push and pop.
+4) In EMU8086, create a program to print your first name, last name, registration number, and email in reversed order using loops and a stack. Here's a detailed 5) explanation of how you can implement this program in EMU8086 assembly language:	    								
+	• Declare and initialize variables for your first name, last name, registration number, and email address.
+	• Simulate a stack using a dedicated segment of memory. You'll need to reserve a segment of memory to serve as the stack. This memory segment will be used to 	  push and pop characters onto and from the stack.
+
+
+*******************Lab #10*****************
+1) What is procedure?
+1) Program that passes different values using procedure.
+2) Program to take input and ouput using procedure.
+3) Program to print different messages in 3 different lines using procedure
+4) Program to add two numbers using procedure.
+5) Write a procedures that performs arithmetic operations.
+
+*******************Lab #11*****************
+1) Print 0 to 9 using using recursion.
+2) Print table of 2 using using recursion.
+3) Implement a procedure named MULTIPLY_BY_TWO that multiplies a number by 2. Use a loop to perform this operation 5 times. Display the results.
+4) Develop a program with two procedures: INCREMENT and SQUARE. Call INCREMENT to increase a number by 1, then call SQUARE to square the result. Display the final value.
+5) Write a macro pair named READ_NUMBER and PRINT_NUMBER that reads and prints a decimal number, respectively. Use these macros in a program to input a number, multiply it by 3 using a procedure, and then print the result.
+6) Write a program that uses procedures to find the sum and average of elements in an integer array. 
+7) Implement a recursive procedure named FACTORIAL to calculate the factorial of a number. Use this procedure in a program to find the factorial of a user-input number.
+8) Develop a program that calculates the sum of digits in a positive integer using a stack and recursion. The stack should be used to store intermediate results during the recursive calls.
+
+*******************Lab #12*****************
+
+1) What is macro?
+2) list down the difference between macro and procedure.
+3) Write a promgram to print string using macro that take one parameter. 
+4) build macro for addition, subtraction, multiplication, and division.
+5) Write a program that call procedure in macro.
+6) Write a macro named ADD_TWO_NUM that takes two parameters and adds them. Demonstrate its usage in a simple program.

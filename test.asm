@@ -7,7 +7,18 @@ arr db 1,2,3,4,5
 result db ?
 .code
 
+sum_arr proc
 
+    cmp bx,0
+    je back
+    mov cl,[si]
+    add al,cl
+    dec bx
+    inc si
+    call sum_arr
+
+    back: ret
+    sum_arr endp
 
 main proc
     mov bx,5
@@ -32,15 +43,3 @@ main proc
     end main
 ret
 
-sum_arr proc
-
-    cmp bx,0
-    je back
-    mov cl,[si]
-    add al,cl
-    dec bx
-    inc si
-    call sum_arr
-
-    back: ret
-    sum_arr endp
