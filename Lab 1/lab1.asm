@@ -5,7 +5,9 @@ org 100h
 .code
 
 main proc
-    mov dl,5
+    mov ah,1
+    int 21h
+    mov dl,al
     add dl,48
     mov ah,2
     int 21h
